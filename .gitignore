@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/env/
+venv/
+env/
+
+# Next.js Build Output
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Python Cache & Databases
+__pycache__/
+*.py[cod]
+*$py.class
+backend/app/__pycache__/
+backend/tests/__pycache__/
+*.db
+*.sqlite
+*.sqlite3
+backend/hirematch.db
+
+# Storage Uploads
+uploads/
+backend/uploads/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.production
+
+# IDE & System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
